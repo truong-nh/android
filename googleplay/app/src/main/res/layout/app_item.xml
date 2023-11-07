@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Grab"
+        android:paddingStart="5sp"
+        android:paddingEnd="5sp"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:textColorHint="#A1887F"
+        android:textSize="20sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/appStar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="4.3★"
+        android:paddingStart="5sp"
+        android:paddingEnd="5sp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#8D6E63"
+        android:textSize="16sp"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeTextType="uniform" />
+
+</LinearLayout>
